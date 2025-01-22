@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+    color: #c59f46;
+    font-weight: 50;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: black !important;
+}
+
+.text-grids h1 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 600px 290px 290px;
+    grid-template-rows: 280px 280px;
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.bottom-grid {
+    display: grid;
+    grid-template-columns: 400px 280px 280px 200px;
+    gap: 20px;
+}
+
+.main,
+.side1,
+.side2,
+.bottom-item {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+/*CARROSSEL*/
+.container-avaliacoes h1, 
+.container-avaliacoes p {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    color: #c59f46;
+}
+
+.container-avaliacoes h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.container-avaliacoes p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.rating-table {
+    margin: 30px auto;
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 100px;
+    color: black;
+}
+
+.rating-table th,
+.rating-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.rating-table .stars {
+    font-size: 1.5rem;
+    color: #c59f46;
+}
+
+.carousel {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    border-radius: 5px;
+    color: black;
+}
+
+.carousel-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.carousel-button {
+    padding: 10px 20px;
+    background-color: #c59f46;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.carousel-button:hover {
+    background-color: #755b1d;
+}
+
+/*COMODIDADES*/
+.btn-disponibilidade {
+    background: #ffd700;
+    border: none;
+    padding: 10px 20px;
+    color: #333;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-disponibilidade:hover {
+    background: #e0c200;
+}
+
+.comodidades {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    margin-top: 100px;
+}
+
+.comodidades h2 {
+    font-size: 1.8rem;
+    color: #00509e;
+    margin-bottom: 10px;
+}
+
+.comodidades ul {
+    list-style: none;
+    padding: 0;
+}
+
+.comodidades li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.comodidades li i {
+    font-size: 1.5rem;
+    color: #00509e;
+    margin-right: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 10px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/*PERGUNTAS FREQUENTES*/
+.faq {
+    padding: 20px;
+    background: #f8f9fa;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.faq h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00509e;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.faq-item h3 {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+.faq-item h3 i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #00509e;
+}
+
+.faq-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/*PROXIMIDADES*/
+.proximidades {
+    padding: 20px;
+    background: #f8f9fa;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.proximidades h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00509e;
+}
+
+.proximidade-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.proximidade-item h3 {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+.proximidade-item h3 i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #00509e;
+}
+
+.proximidade-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.proximidade-item ul li {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.btn-visualizar {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #00509e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/*IFRAME*/
+.mapa {
+    margin: 40px 0;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.mapa iframe {
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mapa h2 {
+    font-size: 1.8rem;
+    color: #00509e;
+    margin-bottom: 10px;
+}

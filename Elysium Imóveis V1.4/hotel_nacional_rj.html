@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Transparente</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="flex">
+                <!-- Logo -->
+                <a href="index.html"><i class="bi bi-buildings"></i></a>
+
+                <!-- Navegação -->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="imoveis_disponiveis.html">Imóveis Disponíveis</a></li>
+                        <li><a href="#">Lançamentos</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Botão de Acesso Locatários -->
+                <div class="btn-contato">
+                    <button class="dropdown-btn">Acesso Locatários</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="text-grids">
+        <h1>Hotel Nacional do Rio de Janeiro</h1>
+    </div>
+
+    <div class="main-grid">
+        <div class="main" style="background-image: url('royal_1.jpg');">Principal</div>
+        <div class="side1" style="background-image: url('royal_1.jpg');">Lado 1</div>
+        <div class="side2" style="background-image: url('royal_1.jpg');">Lado 2</div>
+        <div class="bottom-grid">
+            <div class="bottom-item" style="background-image: url('royal_1.jpg');">Item 1</div>
+            <div class="bottom-item" style="background-image: url('royal_1.jpg');">Item 2</div>
+            <div class="bottom-item" style="background-image: url('royal_1.jpg');">Item 3</div>
+            <div class="bottom-item" style="background-image: url('royal_1.jpg');">Item 4</div>
+        </div>
+    </div>
+
+    <!-- Tabela de Avaliação -->
+    <div class="container-avaliacoes">
+        <h1>O que os clientes dizem</h1>
+        <p>Quer saber o que torna nossa marca tão especial? Confira o que nossos clientes têm a dizer!</p>
+    </div>
+
+
+    <table class="rating-table">
+        <tr>
+            <td colspan="2" class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </td>
+        </tr>
+        <tr>
+            <td>Fabuloso</td>
+            <td>Nota: 9.2</td>
+        </tr>
+    </table>
+
+    <!-- Carrossel de Avaliações -->
+    <div class="carousel">
+        <div class="carousel-container" id="carousel-container">
+            <div class="carousel-item">"Ótima localização e atendimento maravilhoso!" - Maria</div>
+            <div class="carousel-item">"Quartos limpos e muito confortáveis." - João</div>
+            <div class="carousel-item">"Vista incrível e café da manhã delicioso." - Ana</div>
+        </div>
+        <div class="carousel-buttons">
+            <button class="carousel-button" id="prev">Anterior</button>
+            <button class="carousel-button" id="next">Próximo</button>
+        </div>
+    </div>
+
+
+
+    <!--COMODIDADES-->
+    <main class="comodidades">
+        <section class="principais">
+            <h2>Principais Comodidades</h2>
+            <ul>
+                <li><i class="bi bi-water"></i> Piscina ao ar livre</li>
+                <li><i class="bi bi-wifi"></i> Wi-Fi gratuito</li>
+                <li><i class="bi bi-car-front-fill"></i> Estacionamento privativo</li>
+                <li><i class="bi bi-people-fill"></i> Quartos para famílias</li>
+                <li><i class="bi bi-dumbbell"></i> Academia</li>
+                <li><i class="bi bi-shop"></i> Restaurante</li>
+                <li><i class="bi bi-spa"></i> Spa / Centro de bem-estar</li>
+                <li><i class="bi bi-door-closed"></i> Quartos para não fumantes</li>
+                <li><i class="bi bi-cup-straw"></i> Bar</li>
+            </ul>
+        </section>
+
+        <section class="adicionais">
+            <h2>Comodidades Adicionais</h2>
+            <ul>
+                <li><i class="bi bi-egg-fried"></i> Café da manhã no quarto</li>
+                <li><i class="bi bi-tv-fill"></i> TV de tela plana</li>
+                <li><i class="bi bi-cloud-upload-fill"></i> Acesso Wi-Fi gratuito</li>
+                <li><i class="bi bi-bed"></i> Camas extralongas</li>
+                <li><i class="bi bi-lamp-fill"></i> Mesa de trabalho</li>
+            </ul>
+        </section>
+    </main>
+
+    <!--PERGUNTAS FREQUENTES-->
+    <section class="faq">
+        <h2>Perguntas Frequentes</h2>
+    
+        <div class="faq-item">
+            <h3><i class="bi bi-question-circle"></i> Como faço para realizar uma reserva?</h3>
+            <p>Você pode realizar uma reserva diretamente pelo nosso site ou entrando em contato com nossa central de atendimento.</p>
+        </div>
+    
+        <div class="faq-item">
+            <h3><i class="bi bi-question-circle"></i> Qual é o horário de check-in e check-out?</h3>
+            <p>O check-in é das 14:00 às 00:00 e o check-out é das 05:00 às 12:00.</p>
+        </div>
+    
+        <div class="faq-item">
+            <h3><i class="bi bi-question-circle"></i> O hotel aceita pets?</h3>
+            <p>Infelizmente, não aceitamos animais de estimação em nossas dependências.</p>
+        </div>
+    
+        <div class="faq-item">
+            <h3><i class="bi bi-question-circle"></i> O estacionamento é gratuito?</h3>
+            <p>Não. O estacionamento privativo tem um custo de R$ 65 por dia.</p>
+        </div>
+    </section>
+
+    <!--PROXIMIDADES-->
+    <section class="proximidades">
+        <h2>Proximidades do Hotel</h2>
+    
+        <div class="proximidade-item">
+            <h3><i class="bi bi-geo-alt"></i> O que há por perto?</h3>
+            <ul>
+                <li>Largo da Macumba - 800 m</li>
+                <li>Praça Comandante Celso Pestana - 1,5 km</li>
+                <li>Praça Augusto de Lima - 3,2 km</li>
+                <li>Parque Municipal - 3,9 km</li>
+                <li>Praça Atahualpa - 4,3 km</li>
+                <li>Praça Antônio Callado - 4,3 km</li>
+                <li>Praça Prof. Azevedo Sodri - 4,6 km</li>
+                <li>Área Ajardinada da Rua Padre Leonel França - 5 km</li>
+                <li>Pavilhão Chinês - 6 km</li>
+                <li>Jardim Botânico do Rio de Janeiro - 7 km</li>
+            </ul>
+        </div>
+    
+        <div class="proximidade-item">
+            <h3><i class="bi bi-restaurant"></i> Restaurantes e Cafés</h3>
+            <ul>
+                <li>Restaurante Sereia - 50 m</li>
+                <li>Restaurante Bardot Pool Bar - 50 m</li>
+                <li>Restaurante Páru Inkas Sushi & Grill - 400 m</li>
+            </ul>
+        </div>
+    
+        <div class="proximidade-item">
+            <h3><i class="bi bi-map"></i> Principais Atrações</h3>
+            <ul>
+                <li>Parque Lage - 7 km</li>
+                <li>Parque Nacional da Floresta da Tijuca - 7 km</li>
+                <li>Forte de Copacabana - 8 km</li>
+                <li>Pasmado Belvedere - 11 km</li>
+                <li>Cristo Redentor - 11 km</li>
+                <li>Escadaria Selarón - 16 km</li>
+                <li>Museu de Arte Moderna - 17 km</li>
+                <li>AquaRio - 18 km</li>
+                <li>Museu do Amanhã - 19 km</li>
+            </ul>
+        </div>
+    
+        <div class="proximidade-item">
+            <h3><i class="bi bi-sun"></i> Belezas Naturais</h3>
+            <ul>
+                <li>Lagoa Rodrigo de Freitas - 8 km</li>
+                <li>Corcovado - 11 km</li>
+            </ul>
+        </div>
+    
+        <div class="proximidade-item">
+            <h3><i class="bi bi-house-door"></i> Praias na Vizinhaça</h3>
+            <ul>
+                <li>Praia de São Conrado - 350 m</li>
+                <li>Praia do Pepino - 1,1 km</li>
+                <li>Praia do Vidigal - 3,2 km</li>
+                <li>Praia do Leblon - 4,2 km</li>
+                <li>Praia da Joatinga - 5 km</li>
+            </ul>
+        </div>
+    
+        <div class="proximidade-item">
+            <h3><i class="bi bi-traffic-cone"></i> Transporte Público</h3>
+            <ul>
+                <li>Metrô São Conrado - 1 km</li>
+                <li>Metrô Gávea - 4,2 km</li>
+                <li>Trem Paineiras - 11 km</li>
+                <li>Trem Christ the Redeemer - 11 km</li>
+            </ul>
+        </div>
+    
+        <div class="proximidade-item">
+            <h3><i class="bi bi-airplane-engines"></i> Aeroportos mais Próximos</h3>
+            <ul>
+                <li>Aeroporto de Jacarepaguá - 17 km</li>
+                <li>Aeroporto Santos Dumont - Rio de Janeiro - 17 km</li>
+                <li>Aeroporto Internacional do Rio de Janeiro - Galeão - 24 km</li>
+            </ul>
+        </div>
+    
+        
+
+    <!--IFRAME-->
+    <section class="mapa">
+        <h2>Localização do Hotel Nacional Rio de Janeiro</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.700466141889!2d-43.25682079999999!3d-22.9980396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd69fcbb7ffed%3A0xef6b6062f52543cc!2sHotel%20Nacional%20Rio%20de%20Janeiro!5e0!3m2!1spt-BR!2sbr!4v1737469287202!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    
+
+    <script>
+        const carouselContainer = document.getElementById('carousel-container');
+        const prevButton = document.getElementById('prev');
+        const nextButton = document.getElementById('next');
+
+        let currentIndex = 0;
+
+        function updateCarousel() {
+            const offset = -currentIndex * 100;
+            carouselContainer.style.transform = `translateX(${offset}%)`;
+        }
+
+        prevButton.addEventListener('click', () => {
+            currentIndex = (currentIndex > 0) ? currentIndex - 1 : 0;
+            updateCarousel();
+        });
+
+        nextButton.addEventListener('click', () => {
+            const totalItems = carouselContainer.children.length;
+            currentIndex = (currentIndex < totalItems - 1) ? currentIndex + 1 : totalItems - 1;
+            updateCarousel();
+        });
+    </script>
+
+    
+</body>
+
+</html>
